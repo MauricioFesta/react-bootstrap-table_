@@ -49,7 +49,7 @@ gulp.task('prod', ['umdBuild'], function() {
   gulp.src(['./css/react-bootstrap-table-fork.css',
     './node_modules/react-s-alert/dist/s-alert-default.css',
     './node_modules/react-s-alert/dist/s-alert-css-effects/scale.css'])
-    .pipe(concatCss('./react-bootstrap-table-all.min.css'))
+    .pipe(concatCss('./react-bootstrap-table-fork-all.min.css'))
     .pipe(cssmin())
     .pipe(gulp.dest('./dist'));
 });
