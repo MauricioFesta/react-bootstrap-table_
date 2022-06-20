@@ -3,7 +3,7 @@
 /* eslint no-alert: 0 */
 /* eslint no-console: 0 */
 import React from 'react';
-import { BootstrapTable, TableHeaderColumn, DeleteButton } from 'react-bootstrap-table';
+import { BootstrapTable, TableHeaderColumn, DeleteButton } from 'react-bootstrap-table-fork';
 
 
 const products = [];

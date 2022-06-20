@@ -42,11 +42,11 @@ gulp.task('prod', ['umdBuild'], function() {
     .pipe(babel())
     .pipe(gulp.dest('./lib'));
   // build the css
-  gulp.src('./css/react-bootstrap-table.css')
-    .pipe(concatCss("./react-bootstrap-table.min.css"))
+  gulp.src('./css/react-bootstrap-table-fork.css')
+    .pipe(concatCss("./react-bootstrap-table-fork.min.css"))
     .pipe(cssmin())
     .pipe(gulp.dest('./dist'));
-  gulp.src(['./css/react-bootstrap-table.css',
+  gulp.src(['./css/react-bootstrap-table-fork.css',
     './node_modules/react-s-alert/dist/s-alert-default.css',
     './node_modules/react-s-alert/dist/s-alert-css-effects/scale.css'])
     .pipe(concatCss('./react-bootstrap-table-all.min.css'))

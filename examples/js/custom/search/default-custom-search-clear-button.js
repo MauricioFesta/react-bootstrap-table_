@@ -3,7 +3,7 @@
 /* eslint no-alert: 0 */
 /* eslint no-console: 0 */
 import React from 'react';
-import { BootstrapTable, TableHeaderColumn, ClearSearchButton } from 'react-bootstrap-table';
+import { BootstrapTable, TableHeaderColumn, ClearSearchButton } from 'react-bootstrap-table-fork';
 
 
 const products = [];

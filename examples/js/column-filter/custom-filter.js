@@ -2,7 +2,7 @@
 /* eslint no-unused-vars: 0 */
 import React from 'react';
 import PropTypes from 'prop-types';
-import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
+import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table-fork';
 
 const products = [];
 

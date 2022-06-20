@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import 'react-s-alert/dist/s-alert-default.css';
 import 'react-s-alert/dist/s-alert-css-effects/scale.css';
-import '../../../css/react-bootstrap-table.css';
+import '../../../css/react-bootstrap-table-fork.css';
 import {
   Grid,
   Row,

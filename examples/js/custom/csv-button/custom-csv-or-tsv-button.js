@@ -5,7 +5,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import DropdownButton from 'react-bootstrap/lib/DropdownButton';
 import MenuItem from 'react-bootstrap/lib/MenuItem';
-import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
+import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table-fork';
 
 // Initialize the product array.
 const products = [];

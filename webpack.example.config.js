@@ -25,7 +25,7 @@ module.exports = {
   resolve: {
     extensions: [ '', '.js', '.jsx' ],
     alias: {
-      'react-bootstrap-table': path.resolve(__dirname, './src')
+      'react-bootstrap-table-fork': path.resolve(__dirname, './src')
     }
   },
   module: {

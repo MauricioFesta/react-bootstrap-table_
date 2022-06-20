@@ -2,7 +2,7 @@
 /* eslint no-unused-vars: 0 */
 /* eslint no-alert: 0 */
 import React from 'react';
-import { BootstrapTable, TableHeaderColumn, ButtonGroup } from 'react-bootstrap-table';
+import { BootstrapTable, TableHeaderColumn, ButtonGroup } from 'react-bootstrap-table-fork';
 
 
 const products = [];

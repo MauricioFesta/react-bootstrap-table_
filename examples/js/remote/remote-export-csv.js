@@ -1,5 +1,5 @@
 import React from 'react';
-import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
+import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table-fork';
 
 export default class RemoteExportCSV extends React.Component {
   constructor(props) {

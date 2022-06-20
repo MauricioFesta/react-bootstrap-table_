@@ -3,7 +3,7 @@
 /* eslint no-alert: 0 */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table';
+import { BootstrapTable, TableHeaderColumn } from 'react-bootstrap-table-fork';
 
 
 const products = [];
