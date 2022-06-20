@@ -1,4 +1,4 @@
-# react-bootstrap-table
+# Fork react-bootstrap-table AllenFang
 
 ## [`react-bootstrap-table2`](https://github.com/react-bootstrap-table/react-bootstrap-table2) already released, this project will stop development after 2018Q2
 
