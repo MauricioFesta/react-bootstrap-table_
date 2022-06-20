@@ -1,11 +1,11 @@
 {
-  "name": "react-bootstrap-table",
-  "version": "4.3.1",
+  "name": "react-bootstrap-table-fork",
+  "version": "4.3.2",
   "description": "It's a react table for bootstrap",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AllenFang/react-bootstrap-table.git"
+    "url": "https://github.com/MauricioFesta/"
   },
   "scripts": {
     "lint": "eslint src",

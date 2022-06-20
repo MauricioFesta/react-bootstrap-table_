@@ -1,8 +1,5 @@
 # Fork react-bootstrap-table AllenFang
 
-## [`react-bootstrap-table2`](https://github.com/react-bootstrap-table/react-bootstrap-table2) already released, this project will stop development after 2018Q2
-
-[![Join the chat at https://gitter.im/AllenFang/react-bootstrap-table](https://badges.gitter.im/AllenFang/react-bootstrap-table.svg)](https://gitter.im/AllenFang/react-bootstrap-table?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 [![NPM version][npm-badge]][npm] [![Build Status][travis-ci-image]][travis-ci-url]
 
@@ -34,13 +31,6 @@ Check the <a href='https://github.com/AllenFang/react-bootstrap-table/blob/maste
 ## Notes
 
 
-***`v4.0.0` released, this release mainly replace `react-toastr` with `react-s-alert`***
-1. Replace `react-toastr` by `react-s-alert`
-2. Use `prop-types`
-3. Support `bootstrap@4` and `bootstrap@3` both. If you use 4, please add `version='4'` on `<BootstrapTable>`
-4. No important features were implemented, most of bug fixes and improvement
-
-***After ```v2.4.4```, we move the css files to ```dist``` folder for allowing this repo can be hosted on [cdnjs](https://github.com/cdnjs/cdnjs)<br/>***
 
 ## Development
 ```react-bootstrap-table``` dependencies on react.js and Bootstrap 3, also written by ES6 and use gulp and browserify for building and bundling.
@@ -59,7 +49,7 @@ $ npm start # see all examples, go to localhost:3004
 ## Usage
 ### a.Install
 ```bash
-npm install react-bootstrap-table --save
+npm install react-bootstrap-table-fork --save
 ```
 
 ### b.Import Module
