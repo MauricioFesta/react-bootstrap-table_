@@ -14,6 +14,7 @@ class TableBody extends Component {
     this.state = {
       currEditCell: null
     };
+    this.listKeyNumbers = [ 49, 50, 51, 52, 53, 54, 55, 56, 57, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105 ];
   }
 
   render() {
@@ -269,7 +270,7 @@ class TableBody extends Component {
       }
     } else if (e.keyCode === 40) {
       offset = { x: 0, y: 1 };
-    } else if (e.keyCode === 13) {
+    } else if (this.listKeyNumbers.indexOf(e.keyCode) !== -1 || e.keyCode === 13) {
       const rowIndex = e.target.parentElement.rowIndex + 1;
       const enterToEdit = typeof keyBoardNav === 'object' ?
         keyBoardNav.enterToEdit :

@@ -16,7 +16,6 @@ class TableEditColumn extends Component {
       shakeEditor: false,
       className: Util.isFunction(className) ? className(fieldValue, row) : className
     };
-    this.listKeyCodeNumber = [ 48, 49, 50, 51, 52, 53, 54, 55, 56 ];
   }
 
   valueShortCircuit(value) {
@@ -24,7 +23,7 @@ class TableEditColumn extends Component {
   }
 
   handleKeyPress = e => {
-    if (e.keyCode === 13 || e.keyCode === 9 || this.listKeyCodeNumber.indexOf(e.keyCode) !== -1) {
+    if (e.keyCode === 13 || e.keyCode === 9) {
       // Pressed ENTER or TAB
       const value = e.currentTarget.type === 'checkbox' ?
                       this._getCheckBoxValue(e) : e.currentTarget.value;
@@ -34,7 +33,7 @@ class TableEditColumn extends Component {
         return;
       }
 
-      if (e.keyCode === 13 || this.listKeyCodeNumber.indexOf(e.keyCode) !== -1) {
+      if (e.keyCode === 13) {
         this.props.completeEdit(value, this.props.rowIndex, this.props.colIndex);
       } else {
         this.props.onTab(this.props.rowIndex + 1, this.props.colIndex + 1, 'tab', e);

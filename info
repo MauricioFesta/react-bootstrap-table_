@@ -1,0 +1,18 @@
+
+
+##nodejs
+#version: 10.21.0
+
+
+##Deploy npm
+1º gulp
+2º npm publish
+
+
+##Deploy local:
+
+1º gulp
+2º  cp -r lib/* /home/mauricio/Documents/lnf-api/server/assets/node_modules/react-bootstrap-table-fork/lib/
+3º sudo killall node
+4º start node
+                
